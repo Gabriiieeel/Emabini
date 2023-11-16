@@ -1,0 +1,199 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image : linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.35)),url(/Login/loginbg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.plogo {
+    height: 85px;
+    width: 85px;
+}
+.logoname{
+    width:50vh;
+    height: 13vh;
+    display:flex;
+    margin:15px 20px 5px 100px;
+    text-align: center;
+}
+
+header {
+    margin:0;
+    position: fixed;
+    padding: 2px 15px;
+    align-items: center;
+    background: #7D1518;
+    color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: -100;
+    height: 100px;
+}
+header h1 {
+    background-color: #7D1518;
+    letter-spacing: 0.01em;
+    font-weight: medium;
+    font-size: 2rem;
+    position: relative;
+    padding-right: 50px;
+    margin: 10px 10px 10px 5px;
+}
+
+header h1 span {
+    letter-spacing: -0.048em;
+    font-weight: lighter;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    height: 50px;
+    width: 100vh;
+    padding: 0 100px 0 150px;
+    border-left: 3px solid rgb(255, 255, 255, .5)
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    position: relative;
+    font-size: 1.1em;
+}
+.loginwrapper{
+    margin-top: 16vh;
+    height: 75vh;
+    width: 60vh;
+    background:white;
+    padding: 20px;
+    border-radius: 10%;
+    background: rgba(255,255,255,0.75);
+}
+.login-box{
+    height: 70vh;
+    padding: 30px 15px 0px 15px;
+}
+.login-box h2{
+    color:#1E1E1E;
+    margin: 0px 10px 20px 10px;
+    font-weight: medium;
+    text-align: center;
+    font-size: 2em;
+}
+.input-box{
+
+height: 80px;
+width: 50vh;
+padding: 15px;
+position: relative;
+}
+::placeholder{
+    color:#7C7979;
+    font-size: 1.5em;
+    padding: 10px 5px;
+}
+.input-box .email, .input-box .password{
+    height: 45px;
+    width: 50.3vh;
+    margin: 5px;
+    border-radius:0.5em;
+    padding: 10px;
+    position: absolute;
+    background: white;
+    transform:translateX(-5%);
+    border: transparent;
+    
+}
+.icon{
+padding: 6px;
+position: absolute;
+top: 25%;
+width: 50px;
+height: 45px;
+text-align: center;
+right:-1%;
+font-size: 2em;
+background: #1e1e1ec0;
+border-radius: 0px 0.12em 0.12em 0px;
+z-index: 1;
+}
+.forgot{
+    height: 30px;
+    padding: 5px 9px;
+    width: 22em;
+    text-align: left;
+}
+.forgot a{
+    font-size: 1em;
+    color: #FF0000;
+}
+.log-btn{
+    height: 40px;
+    width: 50vh;
+    position: absolute;
+    justify-content: space-between;
+    padding:5px;
+    display: flex;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.log-btn .log-in{
+width: 100px;
+height: 40px;
+border-radius: 10px;
+padding:10px;
+border-color: transparent;
+}
+.log-btn .log-guest{
+width: 150px;
+height:40px;
+border-radius: 10px;
+padding:10px;
+border-color: transparent;
+margin-right:-8px;
+}
+.log-btn p{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.puplog{
+    position: relative;
+    height: 30vh;
+    padding:60px 0px 0px 10px;
+    text-align: justify;
+}
+.foot-nav{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left:0px;
+    text-align: center;
+    bottom: 0px;
+    background-color: #7D1518;
+    padding:15px;
+}
+.logo-icon{
+    width: 25px;
+    height: 20px;
+    color:white;
+}
+.foot-nav a{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 0.7em;
+    margin-right: 40px;
+}
