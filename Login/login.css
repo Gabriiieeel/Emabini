@@ -40,7 +40,6 @@ header {
     height: 100px;
 }
 header h1 {
-    background-color: #7D1518;
     letter-spacing: 0.01em;
     font-weight: medium;
     font-size: 2rem;
@@ -196,4 +195,50 @@ margin-right:-8px;
     color: #fafafa;
     font-size: 0.7em;
     margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .logoname {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    header h1 {
+        max-width: 90%;
+        padding-right: 10%;
+    }
+
+    .links {
+        padding: 0 5% 0 10%;
+    }
+
+    .loginwrapper {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .login-box {
+        padding: 5%;
+    }
+
+    .input-box {
+        max-width: 90%;
+    }
+
+    .icon {
+        width: 20%;
+    }
+
+    .forgot {
+        max-width: 90%;
+    }
+
+    .log-btn {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .foot-nav {
+        padding: 5%;
+    }
 }
