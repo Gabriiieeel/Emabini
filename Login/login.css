@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image : linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.35)),url(/Login/loginbg.jpg);
+    background-image : linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.35)),url(loginbg.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
